@@ -5,7 +5,7 @@ import numpy as np
 import joblib
 
 st.set_page_config(layout="centered")
-st.title("Diabetes Prediction App (dynamic feature UI)")
+st.title("Diabetes Prediction App (dynamic feature UI
 
 artifact = joblib.load("diabetes_model.joblib")
 model = artifact['model']
