@@ -55,4 +55,4 @@ if st.button("Predict"):
     if proba is not None:
         st.write(f"**Prediction:** {int(pred)} — probability {proba:.3f}")
     else:
-        st.write(f"**Prediction:** {int(pred)}")
+        st.write(f"**Prediction:** {int(pred)}"
